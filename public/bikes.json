@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "GSX=R Red",
+    "price": 4045.90,
+    "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"
+  },
+  {
+    "id": "2",
+    "name": "GSX=R Yellow",
+    "price": 4045.90,
+    "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"
+  },
+  {
+    "id": "3",
+    "name": "GSX=R Blue",
+    "price": 4045.90,
+    "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__162477004371588.png"
+  },
+  {
+    "id": "4",
+    "name": "GSX=R Black",
+    "price": 4045.90,
+    "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__162477199518813.png"
+  },
+  {
+    "id": "5",
+    "name": "R15 v3 Metallic Red",
+    "price": 4045.90,
+    "img": "https://www.yamaha-motor-india.com/theme/v3/image/r15v3/color/color_04.png"
+  },
+  {
+    "id": "6",
+    "name": "R15 v3 Racing Blue",
+    "price": 4045.90,
+    "img": "https://www.yamaha-motor-india.com/theme/v3/image/r15v3/color/color_01.png"
+  },
+  {
+    "id": "7",
+    "name": "R15 v3 Thunder Gray",
+    "price": 4045.90,
+    "img": "https://www.yamaha-motor-india.com/theme/v3/image/r15v3/color/color_02.png"
+  },
+  {
+    "id": "8",
+    "name": "R15 v3 Dark Knight",
+    "price": 4045.90,
+    "img": "https://www.yamaha-motor-india.com/theme/v3/image/r15v3/color/color_03.png"
+  },
+  {
+    "id": "9",
+    "name": "KTM RC 200 Black-Orange",
+    "price": 4045.90,
+    "img": "https://imgd.aeplcdn.com/393x221/n/bw/models/colors/ktm-select-model-dark-galvano-1634119164167.jpg?q=75"
+  },
+  {
+    "id": "10",
+    "name": "KTM RC 200 Gray-Orange",
+    "price": 4045.90,
+    "img": "https://imgd.aeplcdn.com/393x221/n/bw/models/colors/ktm-select-model-silver-metallic-1634119168125.jpg?q=75"
+  },
+  {
+    "id": "11",
+    "name": "TVS Apache RR310 Red",
+    "price": 4045.90,
+    "img": "https://imgd.aeplcdn.com/393x221/n/bw/models/colors/undefined-racing-red-1587564912248.jpg?q=75"
+  },
+  {
+    "id": "12",
+    "name": "TVS Apache RR310 Black",
+    "price": 4045.90,
+    "img": "https://imgd.aeplcdn.com/393x221/n/bw/models/colors/undefined-titanium-black-1587564932393.jpg?q=75"
+  },
+  {
+    "id": "13",
+    "name": "Yamaha YZF R15 V4 Monstur Eddition",
+    "price": 4045.90,
+    "img": "https://imgd.aeplcdn.com/393x221/n/bw/models/colors/yamaha-select-model-motogp-edition-1632214291113.jpg?q=75"
+  },
+  {
+    "id": "14",
+    "name": "Yamaha YZF R15 V4 Blue",
+    "price": 4045.90,
+    "img": "https://imgd.aeplcdn.com/393x221/n/bw/models/colors/yamaha-select-model-racing-blue-1632214286293.jpg?q=75"
+  },
+  {
+    "id": "15",
+    "name": "Yamaha YZF R15 V4 Red",
+    "price": 4045.90,
+    "img": "https://imgd.aeplcdn.com/393x221/n/bw/models/colors/yamaha-select-model-metallic-red-1632458365661.jpg?q=75"
+  }
+]
