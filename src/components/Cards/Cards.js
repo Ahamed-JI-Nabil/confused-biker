@@ -7,14 +7,14 @@ const Cards = () => {
 
     const [bikes, setBikes] = useState([])
     const [addedBikes, setAddedBikes] = useState([])
-
+    const [randomBike, setRandomBike] = useState([])
     useEffect(() => {
         fetch('bikes.json')
             .then(res => res.json())
             .then(data => setBikes(data))
     }, [])
 
-
+    // console.log(addedBikes)
 
     const addToPicker = (bikes) => {
         const newAddedBikes = [...addedBikes, bikes]
@@ -25,12 +25,19 @@ const Cards = () => {
     const pickRandom = addedBikes => {
         const random = Math.floor(Math.random() * addedBikes.length);
         const selectedRandom = addedBikes[random]
-        console.log(selectedRandom);
+        // console.log(selectedRandom);
+        addedBikes = ['']
+        setRandomBike(selectedRandom)
     }
+
+    console.log(randomBike)
+
     // console.log(addedBikes);
 
     return (
         <div className="cards">
+
+
             <div className="cards-container">
                 {
                     bikes.map(bike => <Card
@@ -41,6 +48,7 @@ const Cards = () => {
 
                 }
             </div>
+
             <div className="picker-container">
                 <h2>Bike You Have Picked</h2>
                 {
@@ -49,8 +57,9 @@ const Cards = () => {
                         addedBike={addedBike}
                     ></Picker>)
                 }
-                <button onClick={() =>pickRandom(addedBikes)}>Pick 1 For Me</button>
+                <button onClick={() => pickRandom(addedBikes)}>Pick 1 For Me</button>
             </div>
+
         </div>
     );
 };
