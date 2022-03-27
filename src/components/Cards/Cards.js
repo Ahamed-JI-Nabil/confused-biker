@@ -25,12 +25,12 @@ const Cards = () => {
     const pickRandom = addedBikes => {
         const random = Math.floor(Math.random() * addedBikes.length);
         const selectedRandom = addedBikes[random]
-        // console.log(selectedRandom);
-        addedBikes = ['']
         setRandomBike(selectedRandom)
+        console.log(selectedRandom);
+        
     }
 
-    console.log(randomBike)
+
 
     // console.log(addedBikes);
 

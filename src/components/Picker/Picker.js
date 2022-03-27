@@ -5,7 +5,6 @@ const Picker = (props) => {
 
     const { img, name } = props.addedBike
 
-    // console.log(props)
     return (
         <div className="picker">
 

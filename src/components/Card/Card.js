@@ -6,7 +6,7 @@ import './Card.css'
 const Card = (props) => {
     const {img, name, price} = props.bike
     const {addToPicker} = props
-    // console.log(props)
+    
     return (
         <div className="card">
             <img src={img} alt="" />
