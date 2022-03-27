@@ -1,0 +1,19 @@
+.picker{
+    background-color: #1c2931c0;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding:20px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+.picker h2{
+    margin-top: 0px;
+}
+.picker img{
+    width:100px
+}
+
+.picker-cart{
+    display: flex;
+}

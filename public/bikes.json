@@ -1,25 +1,25 @@
 [
   {
     "id": "1",
-    "name": "GSX=R Red",
+    "name": "GSX-R Red",
     "price": 4045.90,
     "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"
   },
   {
     "id": "2",
-    "name": "GSX=R Yellow",
+    "name": "GSX-R Yellow",
     "price": 4045.90,
     "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"
   },
   {
     "id": "3",
-    "name": "GSX=R Blue",
+    "name": "GSX-R Blue",
     "price": 4045.90,
     "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__162477004371588.png"
   },
   {
     "id": "4",
-    "name": "GSX=R Black",
+    "name": "GSX-R Black",
     "price": 4045.90,
     "img": "https://www.suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__162477199518813.png"
   },
