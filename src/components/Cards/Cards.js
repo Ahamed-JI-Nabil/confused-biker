@@ -17,6 +17,9 @@ const Cards = () => {
     // console.log(addedBikes)
 
     const addToPicker = (bikes) => {
+
+        // const reset = bikes.filter(bike => bike.id===bikes.id)
+        // setAddedBikes(reset)
         const newAddedBikes = [...addedBikes, bikes]
         setAddedBikes(newAddedBikes)
 
@@ -25,8 +28,9 @@ const Cards = () => {
     const pickRandom = addedBikes => {
         const random = Math.floor(Math.random() * addedBikes.length);
         const selectedRandom = addedBikes[random]
-        setRandomBike(selectedRandom)
-        console.log(selectedRandom);
+        const reset = bikes.filter(bike => bike.id=== selectedRandom.id)
+        setAddedBikes(reset)
+        // console.log(selectedRandom);
         
     }
 
