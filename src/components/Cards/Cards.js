@@ -7,7 +7,6 @@ const Cards = () => {
 
     const [bikes, setBikes] = useState([])
     const [addedBikes, setAddedBikes] = useState([])
-    const [randomBike, setRandomBike] = useState([])
     useEffect(() => {
         fetch('bikes.json')
             .then(res => res.json())
@@ -28,10 +27,10 @@ const Cards = () => {
     const pickRandom = addedBikes => {
         const random = Math.floor(Math.random() * addedBikes.length);
         const selectedRandom = addedBikes[random]
-        const reset = bikes.filter(bike => bike.id=== selectedRandom.id)
+        const reset = bikes.filter(bike => bike.id === selectedRandom.id)
         setAddedBikes(reset)
         // console.log(selectedRandom);
-        
+
     }
 
 
